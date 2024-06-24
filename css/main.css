@@ -1,0 +1,33 @@
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    border: solid blue 1px;
+    padding: 5px 25px;
+    border-radius: 30px;
+    
+}
+a:not(#nav-bar):hover{
+    border: solid blue 1px;
+    padding: 5px 25px;
+    border-radius: 30px;
+
+}
+.wall-paper{
+    background-image: url(../photo/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #1E202B;
+}
+.main-btn{
+    position: absolute;
+    top: 37%;
+    right: 0;
+  margin-right: 5px;
+ }
+.change img {
+    width:30px;
+    
+}
+
+.change {
+    
+    padding: 10px;
+}

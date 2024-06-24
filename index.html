@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="main-navbar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" id="nav-bar" href="#">weather</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2  mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">news</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">live cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+              
+          </div>
+        </div>
+      </nav>
+    </div>
+    <main>
+      <section class="wall-paper vh-100 ">
+        <div class="container ">
+          <div class="input py-5 position-relative">
+            <input class="form-control form-control-lg" id="find" type="text" placeholder="find your location" aria-label=".form-control-lg example">
+            <button class="btn btn-info main-btn " id="btn">find</button>
+          </div>
+        </div>
+        <div class="container">
+<div class="row "  >
+<div class="col-md-4 today" >
+  <div class="card ">
+    <div class="card-header d-flex justify-content-between ">
+      <span class="day" id="dateToday">Thursday</span>
+      <span class="day-date" id="dateTodayNumber">20June</span>
+    </div>
+    <div class="card-body py-5 ">
+      <h6 class="city" id="city">Cairo</h6>
+      <h2 class=" h1 text-center" id="timpToday">35.1oC</h2>
+      <img src="" alt="" id="firstCardImage">
+      <h5 class="sun" id="sun">sunny</h5>
+      <div class="icons d-flex ju">
+        <div class="umberella change d-flex">
+          <img src="photo/icon-umberella@2x.png" alt="">
+          <span id="umberella"></span>
+        </div>
+        <div class="wind change d-flex ">
+          <img src="photo/icon-wind@2x.png" alt="">
+          <span id="wind"></span>
+        </div>
+        <div class="compass change d-flex">
+          <img src="photo/icon-compass@2x.png" alt="">
+          <span id="compass"></span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="col-md-4 tomorrow">
+  <div class="card d-flex  flex-column align-items-center">
+    <div class="card-header w-100 ">
+      <span class="day d-flex justify-content-center " id="tomorrow">Thursday</span>
+    </div>
+    <div class="card-body py-5">
+      <img src="" id="tomorrowIcon"  alt="">
+      <h2 class="  text-center" id="tomorrowtimpBig">35.1oC</h2>
+      <h6 class="  text-center" id="tomorrowtimpSmall">65.1oC</h6>
+      <h5 class="sun" id="suntomorrow"></h5>
+    </div>
+  </div>
+</div>
+<div class="col-md-4 AfterTomorrow">
+  <div class="card d-flex  flex-column align-items-center">
+    <div class="card-header w-100 ">
+      <span class="day d-flex justify-content-center " id="AfterTomorrow">Thursday</span>
+    </div>
+    <div class="card-body py-5">
+      <img src="" id="AfterTomorrowIcon"  alt="">
+      <h2 class="  text-center" id="AfterTomorrowtimpBig">35.1oC</h2>
+      <h6 class="  text-center" id="AfterTomorrowtimpSmall">65.1oC</h6>
+      <h5 class="sun" id="sunAfterTomorrow"></h5>
+    </div>
+  </div>
+</div>
+
+
+</div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
