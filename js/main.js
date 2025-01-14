@@ -49,7 +49,7 @@ if (navigator.geolocation) {
 }
 async function apiFetch(country) {
   let api = await fetch(
-    `https://api.weatherapi.com/v1/forecast.json?key=33089e47f758498fb4c165943241906&q=${country}&days=3&aqi=no&alerts=no`
+    `https://api.weatherapi.com/v1/forecast.json?key=5e6c8fb086ae4a55bf7223733242912=${country}&days=3&aqi=no&alerts=no`
   );
   let data = await api.json();
   console.log(data);
